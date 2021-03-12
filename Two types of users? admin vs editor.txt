@@ -1,0 +1,7 @@
+
+1. Restrict the create user only by admin -> how do we make it more general? or reusable?
+
+2. Restrict editor away from create user page -> Reusable?
+
+3. Display the user level in our dashbord page
+
