@@ -1,31 +1,19 @@
-#### PHP Movie Review
-This is the Docker environment set up for Movie Review
+# Research Assingment 3
 
+TODO: Edit Account
 
-#### Prerequisites
-1. Install `Docker` from [https://docs.docker.com/install/] 
-2. IF you are in Linux, install `docker-compose` from [https://docs.docker.com/install/]
+## Assignment Rubric:
+00 - 30% :: Allows user to login and edit their account.
+30 - 60% :: When new user logs in for the first time they are sent to edit their account, skipping the admin page. After new user edits their account and logs out and logs in they are sent to the admin page
+60 - 80% :: Users with admin access can edit other users’ accounts, while normal users can only edit their own account.
+80 - 100% :: New user has a time limit to log in after their account has been created. If they do not login before the time expires their account is suspended.
 
+## Authors
+Meng Zhu
+Ryoko Oka
 
-#### Set up
-1. Clone the repo
-   ```
-   git clone https://github.com/spiderPan/Fanshawe-IDP-Inclass.git
-   ```
-2. Open the folder and run docker-compose
-   ```
-   cd movies_cms
-   docker-compose up
-   ```
-3. When you finished work, you can turn if off by doing 
-   ```
-   docker-compose down
-   ```
+## Submission Date
+March.17 (Wed) 11:59PM
 
-#### URLs
-1. Your project is up in `http://localhost:8010` which is mapping to the `movies_cms` folder
-2. The phpMyAdmin is in `http://localhost:8011` with the credential of 
-```
-Username: docker_u
-Password: docker_p
-```
+## Licence
+MIT
